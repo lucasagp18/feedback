@@ -5,7 +5,6 @@
     font-family: "Overpass", sans-serif;
     -webkit-font-smoothing: antialiassed;
 }
-
 :root {
     --darkblue: #262e38;
     --light-gray: #969fad;
@@ -28,29 +27,45 @@ body {
     padding: 32px;
     border-radius: 30px;
 }
-
 .estrela {
     background-color: var(--darkblue);
     width: 48px;
     height: 48px;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
     border-radius: 50%;
-
     margin-bottom: 30px;
 }
-
 .card h1 {
     color: var(--white);
     font-size: 28px;
     margin-bottom: 15px;
 }
-
 .card p {
     color: var(--light-gray);
     font-size: 15px;
     line-height: 24px;
+    margin-bottom: 24px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botoes button {
+    width: 51px;
+    height: 51px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    border-radius: 50%;
+    border: none;
+    color: var(--medium-gray);
+    background-color: var(--darkblue);
+}
+
+.botoes button:hover {
+
 }
