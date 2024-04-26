@@ -54,9 +54,3 @@ body {
     font-size: 15px;
     line-height: 24px;
 }
-
-.estrela {
-    background-color: var(--darkblue);
-    width: 48px;
-    height: 48px;
-}
